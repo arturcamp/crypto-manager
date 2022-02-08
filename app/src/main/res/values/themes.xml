@@ -22,4 +22,21 @@
     <style name="Theme.CryptoManager.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.CryptoManager.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Base.Widget.AppCompat.TextView.Header">
+        <item name="android:textSize">30sp</item>
+        <item name="android:color">@color/black</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.TextView.Header.Balance">
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.TextView.Header.Balance.Positive">
+        <item name="android:color">@color/green</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.TextView.Header.Balance.Negative">
+        <item name="color">@color/red</item>
+    </style>
 </resources>
